@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.NotePad" parent="Base.Theme.NotePad">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">轻记 NotePad</string>
+    <string name="home_title">我的便签</string>
+    <string name="home_subtitle">把目标、计划和灵感钉在眼前</string>
+    <string name="my_notes">我的笔记</string>
+    <string name="all_notes">所有笔记</string>
+    <string name="my_categories">我的分类</string>
+    <string name="planning_goals_title">计划目标</string>
+    <string name="planning_goals_meta">长期目标与方向</string>
+    <string name="planning_daily_title">当天规划</string>
+    <string name="planning_daily_meta">%1$s · 今日安排</string>
+    <string name="empty_planning_hint">点击这里写下你的规划…</string>
+    <string name="tap_to_edit">点击编辑 ›</string>
+    <string name="planning_input_hint">写下目标、待办或今天的安排…</string>
+    <string name="add_category">添加分类</string>
+    <string name="create">创建</string>
+    <string name="category_name_hint">分类名称</string>
+    <string name="category_color_auto_hint">系统会自动为新分类分配一种便签颜色。</string>
+    <string name="category_name_required">请输入分类名称</string>
+    <string name="category_name_too_long">分类名称不能超过 12 个字</string>
+    <string name="category_exists">该分类已经存在</string>
+    <string name="create_custom_category">创建自定义分类便签</string>
+    <string name="tap_to_add">点击添加 ＋</string>
+    <string name="category_note_count">%1$d 条笔记</string>
+    <string name="open_category">打开分类 ›</string>
+    <string name="open_sticky_category">打开便签 ›</string>
+    <string name="empty_category_title">这个分类还是空白便签</string>
+    <string name="empty_category_message">点击右下角按钮，为这个分类记录第一条笔记。</string>
+    <string name="private_notebook">私密笔记本</string>
+    <string name="private_notebook_new_title">首次使用，请设置密码</string>
+    <string name="private_notebook_unlock_title">解锁私密笔记本</string>
+    <string name="private_notebook_new_description">设置一个只有你知道的密码，用来保护私密笔记。</string>
+    <string name="private_notebook_unlock_description">请输入已设置的密码以查看私密笔记。</string>
+    <string name="create_private_password">设置密码并进入</string>
+    <string name="unlock_private_notebook">解锁私密笔记</string>
+    <string name="private_password">密码</string>
+    <string name="private_password_confirm">再次输入密码</string>
+    <string name="private_password_local_hint">密码只会以加盐哈希形式保存在本机。</string>
+    <string name="private_password_too_short">密码至少需要 4 个字符</string>
+    <string name="private_password_mismatch">两次输入的密码不一致</string>
+    <string name="private_password_wrong">密码错误，请重新输入</string>
+    <string name="change_private_password">修改私密密码</string>
+    <string name="current_password">当前密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_change">确认修改</string>
+    <string name="private_password_changed">私密笔记本密码已更新</string>
+    <string name="private_tile_locked">已加密 · %1$d 条笔记</string>
+    <string name="unlock_sticky_category">解锁笔记本 ›</string>
+    <string name="private_unlocked">私密笔记本已解锁</string>
+    <string name="no_notes">还没有笔记</string>
+    <string name="search_hint">搜索标题或正文</string>
+    <string name="all_categories">全部</string>
+    <string name="uncategorized">未分类</string>
+    <string name="study">学习</string>
+    <string name="work">工作</string>
+    <string name="life">生活</string>
+    <string name="idea">灵感</string>
+    <string name="empty_notes_title">从第一条想法开始</string>
+    <string name="empty_notes_message">点击右下角按钮，记录此刻的灵感。</string>
+    <string name="empty_search_title">没有匹配的笔记</string>
+    <string name="empty_search_message">试试其他关键词，或切换笔记分类。</string>
+    <string name="load_notes_failed">笔记加载失败，请稍后重试</string>
+    <string name="sort_notes">笔记排序</string>
+    <string name="sort_modified">最近编辑</string>
+    <string name="sort_created">最近创建</string>
+    <string name="sort_title">标题名称</string>
+    <string name="settings">偏好设置</string>
+    <string name="about">关于</string>
+    <string name="about_title">关于轻记</string>
+    <string name="about_message">轻记 NotePad 是一个本地记事本应用。\n\n支持时间戳、全文搜索、自定义分类便签、计划目标、当天规划、图片笔记、深色模式和带密码保护的私密笔记本。所有数据仅保存在本机。</string>
+    <string name="pin_note">置顶笔记</string>
+    <string name="unpin_note">取消置顶</string>
+    <string name="delete_note">删除笔记</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="delete_note_message">确定删除“%1$s”吗？删除后无法恢复。</string>
+    <string name="delete_current_note_message">确定删除当前笔记吗？删除后无法恢复。</string>
+    <string name="edit_note">编辑笔记</string>
+    <string name="save">保存</string>
+    <string name="title_hint">笔记标题</string>
+    <string name="content_hint">开始记录…</string>
+    <string name="category_label">分类</string>
+    <string name="add_image">添加图片</string>
+    <string name="remove_image">移除图片</string>
+    <string name="open_image_preview">点击查看大图</string>
+    <string name="image_preview">图片预览</string>
+    <string name="image_viewer_title">查看图片</string>
+    <string name="image_viewer_hint">双指缩放 · 拖动查看 · 双击放大</string>
+    <string name="close_image_viewer">关闭图片预览</string>
+    <string name="image_load_failed">图片加载失败</string>
+    <string name="unsaved_changes_title">未保存的修改</string>
+    <string name="unsaved_changes_message">当前笔记有修改，是否先保存？</string>
+    <string name="discard_changes">放弃修改</string>
+    <string name="keep_editing">继续编辑</string>
+    <string name="new_note">新笔记</string>
+    <string name="edited_at">最后编辑：%1$s</string>
+    <string name="image_note_title">图片笔记</string>
+    <string name="image_save_failed">图片保存失败，请换一张图片重试</string>
+    <string name="empty_note_not_saved">空白笔记未保存</string>
+    <string name="save_note_failed">笔记保存失败</string>
+    <string name="note_not_found">笔记不存在或已被删除</string>
+    <string name="preferences_title">偏好设置</string>
+    <string name="appearance">外观</string>
+    <string name="theme_description">选择应用的显示主题</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色模式</string>
+    <string name="theme_dark">深色模式</string>
+    <string name="notes_behavior">笔记</string>
+    <string name="sort_description">新排序会立即应用到笔记列表</string>
+    <string name="privacy_title">本地存储</string>
+    <string name="privacy_description">笔记与图片仅存储在当前设备中，不上传网络。</string>
+    <string name="pinned_label">置顶</string>
+    <string name="image_label">含图片</string>
+    <string name="add_note_content_description">新建笔记</string>
+
+    <string-array name="sort_options">
+        <item>@string/sort_modified</item>
+        <item>@string/sort_created</item>
+        <item>@string/sort_title</item>
+    </string-array>
+    <string-array name="sort_values">
+        <item>modified</item>
+        <item>created</item>
+        <item>title</item>
+    </string-array>
+
+    <plurals name="note_count">
+        <item quantity="one">%d 条笔记</item>
+        <item quantity="other">%d 条笔记</item>
+    </plurals>
+</resources>

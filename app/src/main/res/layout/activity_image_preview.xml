@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_viewer_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <com.example.notepad.ZoomableImageView
+        android:id="@+id/full_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image_preview" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/image_viewer_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="top"
+        android:background="#B3000000"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:navigationIcon="@drawable/ic_close_white"
+        app:title="@string/image_viewer_title"
+        app:titleTextColor="#FFFFFFFF" />
+
+    <ProgressBar
+        android:id="@+id/image_viewer_progress"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:indeterminateTint="#FFFFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/bg_image_preview_hint"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:text="@string/image_viewer_hint"
+        android:textColor="#FFFFFFFF"
+        android:textSize="13sp" />
+</FrameLayout>
